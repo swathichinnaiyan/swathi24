@@ -1,4 +1,4 @@
 #wa
 n,k=map(float,input().split(" "))
 area=n*k
-print(area)
+print('%.5f'%area)
