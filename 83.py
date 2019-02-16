@@ -1,7 +1,13 @@
 #swa
-for  i in range(4):
-	a,b=map(int,input().split())
-	if(i%2==0):
-		print(a//b)
-	else:
-		print(a%b)
+s=input()
+o=['/','%']
+for i in s:
+	if i in o:
+		if(i=='/'):
+			a=int(s.split(i)[0])
+			b=int(s.split(i)[1])
+			print(a//b)
+		else:
+			a=int(s.split(i)[0])
+			b=int(s.split(i)[0])
+			print(a%b)
