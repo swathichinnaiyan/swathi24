@@ -7,7 +7,7 @@ for i in range(0,len(s)):
 	else:
 		count1=count1+1
 if count1>0:
-	print("no")
+	print("No")
 else:
-	print("yes")
+	print("Yes")
 		
