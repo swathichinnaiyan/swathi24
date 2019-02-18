@@ -1,6 +1,6 @@
 #swa
 s=input()
-if s=="saturday"or s=="sunday":
-    print("yes")
+if s=="Saturday" or "Sunday":
+  print("yes")
 else:
-    print("no")
+  print("no")
