@@ -1,14 +1,11 @@
 #swa
-n,s,k=map(str,input().split())
-N=int(k)
+s1,s2,k=input().split()
+k=int(k)
 c=0
-if len(n)!=len(s):
-	pritn("no")
+for i in range(len(s1)):
+  if s1[i]!=s2[i]:
+    c+=1
+if c==k:
+  print('yes')
 else:
-	for i in range(0,len(n)):
-		if n[i]!=s[i]:
-			c=c+1
-if c==N:
-	print("yes")
-else:
-	print("no"
+  print('no')
