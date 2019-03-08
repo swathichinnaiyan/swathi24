@@ -1,9 +1,8 @@
 #swa
-n=int(input())
-
-for i in range(1,n+1):
-	if n%i==0 and i%2==0:
-		print(i,end=" ")
-if i==n-1 and n%i==0:
-	print(i+1)
-	
+a=int(input())
+b=[]
+for i in range(1,a+1):
+  if a%i==0:
+    if i%2==0:
+      b.append(i)
+print(*b)
