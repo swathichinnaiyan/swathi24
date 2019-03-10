@@ -1,10 +1,9 @@
 
 #swa
-x= input("")
-num = int(x.replace(",",""))
-if(num>= -2147483648 and num<= 2147483647):
+n=int(input())
+if n>=-2**15+1 and n<=2**15+1:
     print("INT")
-elif(num>=9223372036854775808 and num<= 9223372036854775807):
-    print("LONG LONG")
-else:
+elif n>=-2**31+1 and n<=2**31+1:
     print("LONG")
+else:
+    print("LONG LONG")
