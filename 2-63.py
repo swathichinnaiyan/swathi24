@@ -8,4 +8,7 @@ for i in range(0,len(a)):
 		if a[i]==b[j]:
 			l.append(a[i])
 			continue
-print(l)			
+for i in range(0,len(l)-1):
+	print(l[i],end=" ")
+print(l[-1])	
+		
