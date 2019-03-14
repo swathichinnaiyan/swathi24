@@ -1,6 +1,6 @@
-#Swa
+#swa
 n=int(input())
-a=list(map(int,input().split(" ")))
-for i in range(len(a)-1,0,-1):
-	print(a[i],end="->")
-print(a[0])	
+li=list(input().split())
+for i in range(len(li)-1,0,-1):
+  print(li[i],end="->")
+print(li[0])
