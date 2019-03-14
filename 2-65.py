@@ -1,7 +1,8 @@
 #swa
 n=int(input())
-a=list(map(int,input().split(" ")))
-for i in range(0,len(a)):
-	if a[i]<n:
-		print(a[i],end=" ")
-		
+l=list(map(int,input().split()))
+s=""
+for i in range(0,len(l)):
+        if l[i]<n:
+                s=s+str(l[i])+" "
+print(s.strip())
