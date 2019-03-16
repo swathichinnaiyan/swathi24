@@ -1,5 +1,7 @@
 #swa
 n=int(input())
-a,b=map(int,input().split(" "))
-c=a&b
-print(c)
+l=list(map(int,input().split(" ")))
+s=l[0]
+for i in range(0,len(l)):
+	c=s&l[i]
+print(c)	
