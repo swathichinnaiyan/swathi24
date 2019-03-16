@@ -1,7 +1,7 @@
-#swa
-n=int(input())
-l=list(map(int,input().split()))
-s=l[0]
-for i in range(1,len(l)):
-    s=s^l[i]
-print(s)
+#wsa
+n =int(input())
+a = list(map(int,input().split()))
+x = a[0]
+for i in range(1,n):
+    x = x^a[i]
+print(x)
