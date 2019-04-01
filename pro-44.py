@@ -9,4 +9,3 @@ for i in range(0,len(a)):
       if val>m:
         m=val
 print(m)
-© 2019 GitHub, Inc.
