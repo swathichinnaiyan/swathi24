@@ -9,4 +9,6 @@ for i in range(0,len(l)):
     elif i%2==0 and l[i]%2!=0:
         l1.insert(i,l[i])
 
-print(*l1)
+for i in range(0,len(l1)-1):
+    print(l1[i], end=" ")
+print(l1[-1])    
