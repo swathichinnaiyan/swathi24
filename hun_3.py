@@ -5,4 +5,7 @@ x=[]
 for i in range(0,len(l)):
     if i==l[i]:
         x.append(i)
-print(*x)    
+if len(x)==0:
+    print(-1)
+        
+print(*x)
