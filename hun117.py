@@ -1,8 +1,6 @@
-#swa
-n=input()
-l=list(n)
-l1=[]
-for i in range(0,len(n)):
-    s=int(n[i])**i
-    l1.append(s)
-print(sum(l1))    
+h=input()
+k=list(h)
+s=0
+for i in range(0,len(k)):
+    s=s+(int(k[i])**i)
+print(s)
