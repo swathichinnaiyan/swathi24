@@ -1,3 +1,4 @@
+#swa
 h=input()
 k=list(h)
 s=0
