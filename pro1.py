@@ -11,4 +11,4 @@ for i in zip(*l):
         c.append(i[0])
     else:
         break
-print(''.join(c)
+print(''.join(c))
