@@ -1,14 +1,14 @@
 #swa
-n=input()
-f=0
-c=0
-for i in range(0,len(n)):
-	if n[0].isupper():
-		f=1
-	if n[i]==" ":
-		if n[i+1].isupper():
-			c=1
-if (f==1 and c==1):
-	print("yes")
+s=input()
+l=s.split(" ")
+f=1
+for i in range(len(l)):
+  if l[i][0].isupper():
+    f=1
+  else:
+    f=0
+    break
+if f==1:
+  print("yes")
 else:
-	print("no")
+  print("no")
