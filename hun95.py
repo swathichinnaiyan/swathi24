@@ -12,6 +12,8 @@ for val in range(0, n):
 if n==2:
     print(0)
 else:
-    print(*l1)           
+    for i in range(0,len(l1)-1):
+        print(l1[i],end=" ")
+    print(l1[-1])    
            
            
