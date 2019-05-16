@@ -1,4 +1,3 @@
-#swa
 n=int(input())
 l1=[]
 for val in range(0, n): 
@@ -10,6 +9,9 @@ for val in range(0, n):
                break
        else: 
            l1.append(val)
-print(*l1)           
+if n==2:
+    print(0)
+else:
+    print(*l1)           
            
            
