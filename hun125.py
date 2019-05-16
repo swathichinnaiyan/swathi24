@@ -1,4 +1,4 @@
-3swa
+#swa
 s=input()
 l1=[]
 for i in s:
