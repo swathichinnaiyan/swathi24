@@ -1,7 +1,10 @@
 #swa
-l=list(input())
-l=[int(i) for i in l]
-s=0
-for i in range(len(l)+1):
-	s=s+sum(l[:i])
-print(s)
+n = input("")
+li = list(n)
+for i in range(len(li)):
+    li[i] = int(li[i])
+res = 0
+for i in range(len(li)):
+    ans = sum(li[:i+1])
+    res += ans
+print(res)
