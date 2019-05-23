@@ -1,10 +1,15 @@
 #s
 n=input()
-l=[]
-for i in range(0,len(n)):
-    if i%2==0:
-        l.append(n[i].upper())
-    else:
-        l.append(n[i])
-print("".join(l))        
-        
+p=""
+c=0
+for j in range(len(n)):
+	if c%2==0:
+		p=p+n[j].upper()
+		c=c+1
+	elif n[j]==" ":
+		p=p+" "
+	elif c%2==1:
+		p=p+n[j]
+		c=c+1
+		
+print(p)
