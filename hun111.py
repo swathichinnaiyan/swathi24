@@ -1,11 +1,12 @@
 #s
-import numpy as np
 n=int(input())
-l=[]
+k=[]
+s=0
 for i in range(n):
-	x=list(map(int,input().split()))
-	l.append(x)
-#print(*x)
-
-b = np.asarray(l)
-print (  np.trace(b))
+    l=list(map(int,input().split()))
+    k.append(l)
+j=n-1
+for i in range(n):
+    s=s+k[i][j]
+    j=j-1
+print(s)
