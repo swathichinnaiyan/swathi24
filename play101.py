@@ -7,4 +7,4 @@ for i in range(0,len(a)-1):
 		l.append(a[i])
 	else:
 		l.append(a[i+1])
-print(l)
+print(sum(l))
