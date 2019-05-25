@@ -8,4 +8,4 @@ for i in arr:
 for i in arr:
   op.append(p//i)
 print(*op)
-© 2019 GitHub, Inc.
+
