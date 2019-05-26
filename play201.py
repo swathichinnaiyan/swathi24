@@ -1,15 +1,16 @@
 #s
-def catalan_number(num):
-    if num <=1:
-         return 1
-   
-    num1 = 0
-    for i in range(num):
-        num1 += catalan_number(i) * catalan_number(num-i-1)
-    return num1
- 
+def catalan(n):
+    if n<=1:
+        return 1
+    else:
+        s=0
+        for i in range(n):
+            s=s+catalan(i)*catalan(n-i-1)
+        return s
 n=int(input())
-l=[]
-for i in range(0,n+1):
-    l.append(catalan_number(n))
-print(*l)    
+if n==0:
+    n=1
+c=[]
+for i in range(n):
+    c.append(catalan(i))
+print(*c)
