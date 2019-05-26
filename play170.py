@@ -1,4 +1,4 @@
-#s
+#sww
 s=input()
 g=[]
 for i in s:
