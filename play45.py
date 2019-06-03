@@ -6,4 +6,4 @@ if(s*2==p and b*b==a):
 	print("yes")
 else:
 	print("no")
-© 2019 GitHub, Inc.
+
