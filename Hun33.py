@@ -21,4 +21,3 @@ else:
 		else:
 			l.append(c-1)
 	print(max(l))
-©
